@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Robot&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color:#fafafa;
+    font-size: 14px;
+    text-align: center;
+}
+.header{
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+
+}
+.wrapper.header.top,
+.signup
+{
+    background:#fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 40px 40px 20px;
+}
+.logo img
+{
+    display: block;
+    margin: 0 auto 35px;
+
+}
+.input_field
+{
+margin-bottom: 5px;
+
+}
+.input
+{
+    width: 100%;
+    background: #efefef;
+    border: 1px solid #efefef;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #262626;
+    padding: 10px;
+
+}
+.wrapper.header.form.input_field.input:focus
+{
+    border: 1px solid #2b2b2b;
+}
+.btn
+{
+    background: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    padding: 3px;
+    width: 45%;
+
+}
+
+.btn a{
+    color: #fff;
+    background: #3897f0;
+    border-radius: 4px;
+    display: block;
+    border: 1px solid #3897f0;
+    padding: 3px;
+    align-items: center;
+}
+
+.or{
+    display: flex;
+    height: 15px;
+    margin: 15px 0 20 px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line{
+    width: 105px;
+    height: 2px;
+    background: #efefef;
+}
+
+.or p{
+    color: #999;
+    font-size: 12px;
+
+}
+
+.fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb img{
+    width: 16px;
+    height: 16px;
+}
+
+.fb p{
+    color: #385185;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.forgot{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.forgot a{
+    color: #003569;
+}
+
+.signup{
+    margin: 10px 0 20px;
+    padding: 25px 40px;
+    text-align: center;
+    color: #262626;
+}
+.signup a{
+    color: #3897f0;
+}
+
+.apps{
+    text-align: center;
+    color: #262626;
+}
+
+.apps p{
+    margin-bottom: 20px;
+}
+
+.apps a img{
+    width: 135px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.footer{
+    max-width: 935px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.links ul li a{
+    font-size: 12px;
+    color: #003569;
+}
+
+.copyright{
+    color: #999;
+    
+}
